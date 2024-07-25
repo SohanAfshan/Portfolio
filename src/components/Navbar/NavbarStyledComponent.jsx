@@ -18,7 +18,7 @@ export const Nav = styled.div`
 `;
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+      justify-content: space-arround;
   align-items: center;
   height: 60px;
   z-index: 1;
@@ -27,7 +27,7 @@ export const NavbarContainer = styled.div`
   max-width: 1200px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled.a`
     width: 80%;    
     padding: 0 6px;
     display: flex;

@@ -90,11 +90,11 @@ function Footer() {
       <FooterWrapper>
         <Logo>Sohan Afshan</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#achievements">Achievements</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
